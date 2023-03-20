@@ -17,7 +17,7 @@ ŷ=x*y
    |2|4|2w|
    |3|6|3w|
 
-ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함 : loss=(ŷ-y) = (xw-y)
+ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함 : loss=(ŷ-y) = (x*w-y)
 
 
 
