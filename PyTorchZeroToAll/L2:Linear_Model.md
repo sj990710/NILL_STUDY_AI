@@ -1,4 +1,4 @@
- ## **AI 강의 2 : Linear Model**
+ ## **AI Lecture 2 : Linear Model**
  ---
  ### Machine Learning-Supervised learning
  * **Model** : 주어진 data set을 통해 Supervised learning 진행
