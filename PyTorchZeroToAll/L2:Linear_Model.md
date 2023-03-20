@@ -17,7 +17,7 @@
 
    ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함 
 
-   ### $loss = (ŷ - y) = (x \times w - y)$
+   ### $loss = (ŷ - y)^{2} = (x \times w - y)^{2}$
 
    |Hours, x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
    |---|---|---|---|---|---|
