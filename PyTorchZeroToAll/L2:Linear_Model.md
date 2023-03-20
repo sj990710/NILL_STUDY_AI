@@ -29,7 +29,7 @@ loss = (ŷ-y) = (x*w-y)
 
 iii) loss의 평균, MSE를 구해 실제 점수 y와 가장 유사한 가중치 w를 찾음
   ```
-  $MSE = 1\over N$
+  MSE = 1\over N, \frac{1}{b}
   ```
   |Hours, x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
   |---|---|---|---|---|---|
