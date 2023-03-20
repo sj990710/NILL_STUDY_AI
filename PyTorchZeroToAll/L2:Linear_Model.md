@@ -6,7 +6,7 @@
    + Variable : x(공부 시간), w(가중치), ŷ(예측 점수), y(실제 점수), loss(오차), MSE(오차의 평균)
  * **Derivation Process**
 
-   i) w 값에 따라 생기는 ŷ값 도출
+   i) x값에 따른 실제 y값과 w 값에 따라 생기는 ŷ값 설정
    ### $ŷ = x \times y$
 
    |Hours(x)|Points(y)|Points_Pred(ŷ)|
