@@ -8,9 +8,9 @@
 
 i) w 값에 따라 생기는 ŷ값 도출
 
-```
+      
 $ŷ = x \times y$
-```
+
 
    |Hours(x)|Points(y)|Points_Pred(ŷ)|
    |---|---|---|
