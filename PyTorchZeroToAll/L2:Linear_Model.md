@@ -6,6 +6,7 @@
    + Variable : x(공부 시간), w(가중치), ŷ(예측 점수), y(실제 점수), loss(오차), MSE(오차의 평균)
  * **Derivation Process**
    1. w 값에 따라 생기는 ŷ값 도출 : ŷ=x*w
+
 |Hours(x)|Points(y)|
 |---|---|
 |1|2|
