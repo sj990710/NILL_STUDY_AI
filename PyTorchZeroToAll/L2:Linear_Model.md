@@ -7,9 +7,9 @@
  * **Derivation Process**
 
 i) w 값에 따라 생기는 ŷ값 도출
-```
+$$
 ŷ = x*y
-```
+$$
 
    |Hours(x)|Points(y)|Points_Pred(ŷ)|
    |---|---|---|
@@ -21,14 +21,16 @@ ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함
 ```
 loss = (ŷ-y) = (x*w-y)
 ```
-   |Hours,x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
+   |Hours, x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
    |---|---|---|---|---|---|
    |1|4|1|0|1|4|
    |2|16|4|0|4|16|
    |3|36|9|0|9|36|
 
 iii) loss의 평균, MSE를 구해 실제 점수 y와 가장 유사한 가중치 w를 찾음
+  ```
   
-  |Hours,x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
+  ```
+  |Hours, x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
   |---|---|---|---|---|---|
   |''|18.7|4.7|0|4.7|18.7|
