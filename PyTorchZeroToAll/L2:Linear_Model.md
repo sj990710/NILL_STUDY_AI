@@ -18,8 +18,6 @@
    ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함 
 
    ### $loss = (ŷ - y) = (x \times w - y)$
-   
-   ## $MSE =$ $1\over N$ $\sum_{n=1}^N$ $(\hat{y}_n - y_n)^{2}$
 
    |Hours, x|Loss (w=0)|Loss (w=1)|Loss (w=2)|Loss (w=3)|Loss (w=4)|
    |---|---|---|---|---|---|
