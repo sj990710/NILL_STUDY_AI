@@ -7,6 +7,9 @@
  * **Derivation Process**
 
 i) w 값에 따라 생기는 ŷ값 도출 : ŷ=x*w
+```
+ŷ=x*y
+```
 
    |Hours(x)|Points(y)|Points_Pred(ŷ)|
    |---|---|---|
@@ -14,7 +17,7 @@ i) w 값에 따라 생기는 ŷ값 도출 : ŷ=x*w
    |2|4|2w|
    |3|6|3w|
 
-ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함 : loss=(ŷ-y)^2=(x*w-y)^2
+ii)  실제 점수 y와 ŷ값의 차이를 통해 loss를 구함 : loss=(ŷ-y) = (xw-y)
 
 
 
