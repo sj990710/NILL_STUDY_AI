@@ -7,7 +7,7 @@
  * **Derivation Process**
    1. w 값에 따라 생기는 ŷ값 도출 : ŷ=x*w
 |Hours(x)|Points(y)|
-|-----|---|
+|---|---|
 |1|2|
 |2|4|
 |3|6|
