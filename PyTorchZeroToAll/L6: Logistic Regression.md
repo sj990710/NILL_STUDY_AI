@@ -13,7 +13,10 @@
   
 ![image](https://user-images.githubusercontent.com/127752372/229476350-05e9096d-e8c9-4387-a182-6d6dde3c2d03.png)
   
+  iV) optimizing
+  cost=> log loss :y=1일 때와 y=0 일때 두 가지로 나
+  ![image](https://user-images.githubusercontent.com/127752372/229479869-c6390780-e18c-4a6c-a7e5-2468d46847f5.png)
+[출처:https://hleecaster.com/ml-logistic-regression-concept/]
   iii)Threshold 설정
   기본적으로 0.5를 임계점으로 사용   
-  iV) optimizing   
-
+  
