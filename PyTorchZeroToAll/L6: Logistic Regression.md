@@ -8,10 +8,12 @@
 ![image](https://user-images.githubusercontent.com/127752372/229476235-7eaa6ae8-e952-4f4e-bf26-aa111a5a428a.png)
 
   ii) sigmoid 함수에 값들을 넣어 [0,1] 사이의 확률로 표현   
+  * Sigmoid Function
+  $$H(x)={1\over {1+e^{-W^TX}}}$$
+  
 ![image](https://user-images.githubusercontent.com/127752372/229476350-05e9096d-e8c9-4387-a182-6d6dde3c2d03.png)
   
   iii)Threshold 설정
-  기본적으로 0.5를 임계점으로 사용
+  기본적으로 0.5를 임계점으로 사용   
   iV) optimizing   
-  * Sigmoid Function
-  $$H(x)={1\over {1+e^{-W^TX}}}$$
+
