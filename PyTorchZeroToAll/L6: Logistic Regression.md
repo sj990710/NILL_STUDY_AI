@@ -9,7 +9,7 @@
 
   ii) sigmoid 함수에 값들을 넣어 [0,1] 사이의 확률로 표현   
   * Sigmoid Function
-  $$H(x)={1\over {1+e^{-W^TX}}}$$
+  $$\sigma={1\over {1+e^{-z}}}$$
   
 ![image](https://user-images.githubusercontent.com/127752372/229476350-05e9096d-e8c9-4387-a182-6d6dde3c2d03.png)
   
