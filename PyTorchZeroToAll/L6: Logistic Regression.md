@@ -4,39 +4,13 @@
 * 선형회귀를 쓰는 이유 : 확률이 음과 양의 방향으로 무한대까지 뻗어감. 논리적으로 말이 안됨
 * 과정   
   i) data set 통해 Linear model 형성   
-```
-import numpy as np
-import matplotlib.pyplot as plt
 
-plt.clf()
-left=0.0
-bottom=0.0
-right=1.0
-top=1.0
-wspace=1.0
-hspace=1.0
-x = np.arange(-3 * np.pi, 3 * np.pi, 0.1)
-y1=x
-y2=x*x
-y3=np.sin(x)
-y4=np.cos(x)
-plt.subplots_adjust(left, bottom, right, top, wspace, hspace)
-plt.subplot(2,2,1)
-plt.plot(x,y1)
+![image](https://user-images.githubusercontent.com/127752372/229476235-7eaa6ae8-e952-4f4e-bf26-aa111a5a428a.png)
 
-plt.subplot(2,2,2)
-plt.plot(x,y2)
-
-plt.subplot(2,2,3)
-plt.plot(x,y3)
-
-plt.subplot(2,2,4)
-plt.plot(x,y4)
-
-plt.show()
-
-```
   ii) sigmoid 함수에 값들을 넣어 [0,1] 사이의 확률로 표현   
+![image](https://user-images.githubusercontent.com/127752372/229476350-05e9096d-e8c9-4387-a182-6d6dde3c2d03.png)
+  
+  
   iii)Threshold 설정   
   iV) optimizing   
   * Sigmoid Function
