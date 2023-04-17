@@ -1,5 +1,7 @@
 # CNN(Convolutional Neural Network)   
-### 이미지의 공간정보를 유지한채 학습   
+#### 이미지의 공간정보를 유지한채 학습   
+![image](https://user-images.githubusercontent.com/127752372/232468013-c41e6461-7103-4e8d-a745-f50848b331f7.png)
+
 ## 1. Filter   
   이미지의 가로 세로 특징을 뽑아 주는 미니맵. CNN에서는 적합한 필터를 자동으로 골라줌
 ## 2. Convolution   
